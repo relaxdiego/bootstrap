@@ -4,7 +4,7 @@ for downloading the actual cloud-init from a given local IP address.
 
 Run with:
 
-    curl https://bit.ly/coreos-bootstrap | bash -s 10.10.10.10 /dev/sda
+    curl -L https://bit.ly/coreos-bootstrap | bash -s 10.10.10.10 /dev/sda
 
 Where:
 
