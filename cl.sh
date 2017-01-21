@@ -3,7 +3,7 @@ echo $1
 
 if [[ -z $1  || -z $2 ]]; then
     echo "ERROR: You must provide a local IP and target drive as arguments. Example:"
-    echo "curl -L https://bit.ly/bootstrap-coreos | bash -s 10.10.10.10 /dev/sda"
+    echo "curl -L https://bit.ly/coreos-bootstrap | bash -s 10.10.10.10 /dev/sda"
     exit 1
 fi
 
