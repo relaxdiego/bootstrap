@@ -41,4 +41,6 @@ coreos:
 EOF
 
 sudo coreos-install -d $target_drive -C stable -c ./bootstrap.yml
-sudo shutdown -r now
+
+echo "Make sure the cloud-init server is listening on $local_ip"
+echo "Please remove the disk or USB and then reboot"
