@@ -22,7 +22,7 @@ for key in "${keys[@]}"; do
 done
 
 cat > bootstrap.yml <<EOF
-# cloud-config
+#cloud-config
 
 ssh_authorized_keys:
 ${authorized_keys}
